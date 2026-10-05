@@ -56,7 +56,7 @@ function Sidebar() {
               as={NavLink}
               to="/discount"
               className="d-flex align-items-center gap-2">
-              <i className='bi bi-click'></i>
+             <i className="bi bi-percent"></i>
               <span className="d-none d-md-inline">ManageDiscout</span>
             </ListGroup.Item>
             {/* <ListGroup.Item
@@ -70,7 +70,7 @@ function Sidebar() {
               as={NavLink}
               to="/users"
               className="d-flex align-items-center gap-2">
-              <i className='bi bi-click'></i>
+              <i className="bi bi-people"></i>
               <span className="d-none d-md-inline">Manage User</span>
             </ListGroup.Item>
             {/* <ListGroup.Item
